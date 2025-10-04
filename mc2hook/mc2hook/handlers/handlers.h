@@ -17,7 +17,6 @@
 #include <handlers\InputHandler.h>
 #include <handlers\BorderlessHandler.h>
 #include <handlers\ReflectionFidelityHandler.h>
-#include <handlers/CarShadowHandler.h>
 
 #include <handlers\StateResearchHook.h>
 
@@ -51,7 +50,6 @@ static void InstallMainHandlers()
     InstallHandler<ChatHandler>("Chat Handler");
     InstallHandler<InitHandler>("Game Init Handler");
     InstallHandler<ReflectionFidelityHandler>("Reflection Fidelity Handller");
-    InstallHandler<CarShadowHandler>("Car Shadow Handler");
 
     InstallHandler<StateResearchHook>("SRH");
 }
