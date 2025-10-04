@@ -17,6 +17,7 @@
 #include <handlers\InputHandler.h>
 #include <handlers\BorderlessHandler.h>
 #include <handlers\ReflectionFidelityHandler.h>
+#include <handlers/MaxVelocityHandler.h>
 #include <handlers/LevelExtentsHandler.h>
 #include <handlers/FreecamHandler.h>
 #include <handlers\FPSCounterHandler.h>
@@ -41,6 +42,7 @@ static void InstallHandlersPostEngineInit()
     InstallHandler<PathHandler>("Path Handler");
     InstallHandler<TestPanelHandler>("Panel Handler (Keyboard input test really)");
     InstallHandler<vehTransmissionHandler>("Transmission Handler");
+    InstallHandler<MaxVelocityHandler>("Max Velocity Handler");
 }
 
 // Installed at game launch
