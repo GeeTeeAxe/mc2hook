@@ -190,6 +190,7 @@
     <ClInclude Include="handlers\BorderlessHandler.h" />
     <ClInclude Include="handlers\CarShadowHandler.h" />
     <ClInclude Include="handlers\ChatHandler.h" />
+    <ClInclude Include="handlers\ControllerScrollingFixHandler.h" />
     <ClInclude Include="handlers\CustomExceptionHandler.h" />
     <ClInclude Include="handlers\CustomVehicleHandler.h" />
     <ClInclude Include="handlers\DeadZoneHandler.h" />
@@ -245,6 +246,7 @@
     <ClCompile Include="handlers\BorderlessHandler.cpp" />
     <ClCompile Include="handlers\CarShadowHandler.cpp" />
     <ClCompile Include="handlers\ChatHandler.cpp" />
+    <ClCompile Include="handlers\ControllerScrollingFixHandler.cpp" />
     <ClCompile Include="handlers\CustomExceptionHandler.cpp" />
     <ClCompile Include="handlers\CustomVehicleHandler.cpp" />
     <ClCompile Include="handlers\DeadZoneHandler.cpp" />

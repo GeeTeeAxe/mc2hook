@@ -17,6 +17,7 @@
 #include <handlers\InputHandler.h>
 #include <handlers\BorderlessHandler.h>
 #include <handlers\ReflectionFidelityHandler.h>
+#include <handlers/ControllerScrollingFixHandler.h>
 #include <handlers/DeadZoneHandler.h>
 #include <handlers/CarShadowHandler.h>
 
@@ -52,6 +53,7 @@ static void InstallMainHandlers()
     InstallHandler<ChatHandler>("Chat Handler");
     InstallHandler<InitHandler>("Game Init Handler");
     InstallHandler<ReflectionFidelityHandler>("Reflection Fidelity Handller");
+    InstallHandler<ControllerScrollingFixHandler>("Controller Scrolling Fix");
     InstallHandler<DeadZoneHandler>("Dead Zone Handler");
     InstallHandler<CarShadowHandler>("Car Shadow Handler");
 
