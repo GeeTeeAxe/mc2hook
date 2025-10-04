@@ -17,6 +17,7 @@
 #include <handlers\InputHandler.h>
 #include <handlers\BorderlessHandler.h>
 #include <handlers\ReflectionFidelityHandler.h>
+#include <handlers/FreecamHandler.h>
 #include <handlers\FPSCounterHandler.h>
 #include <handlers/ControllerScrollingFixHandler.h>
 #include <handlers/DeadZoneHandler.h>
@@ -54,6 +55,7 @@ static void InstallMainHandlers()
     InstallHandler<ChatHandler>("Chat Handler");
     InstallHandler<InitHandler>("Game Init Handler");
     InstallHandler<ReflectionFidelityHandler>("Reflection Fidelity Handller");
+    InstallHandler<FreeCamHandler>("Free Cam Handler");
     InstallHandler<FPSCounterHandler>("FPS Counter Handler");
     InstallHandler<ControllerScrollingFixHandler>("Controller Scrolling Fix");
     InstallHandler<DeadZoneHandler>("Dead Zone Handler");
