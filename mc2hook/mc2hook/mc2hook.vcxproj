@@ -194,6 +194,7 @@
     <ClInclude Include="handlers\BurnoutHandler.h" />
     <ClInclude Include="handlers\CarShadowHandler.h" />
     <ClInclude Include="handlers\ChatHandler.h" />
+    <ClInclude Include="handlers\CityModelLimitHandler.h" />
     <ClInclude Include="handlers\ControllerScrollingFixHandler.h" />
     <ClInclude Include="handlers\CustomExceptionHandler.h" />
     <ClInclude Include="handlers\CustomVehicleHandler.h" />
@@ -259,6 +260,7 @@
     <ClCompile Include="handlers\BurnoutHandler.cpp" />
     <ClCompile Include="handlers\CarShadowHandler.cpp" />
     <ClCompile Include="handlers\ChatHandler.cpp" />
+    <ClCompile Include="handlers\CityModelLimitHandler.cpp" />
     <ClCompile Include="handlers\ControllerScrollingFixHandler.cpp" />
     <ClCompile Include="handlers\CustomExceptionHandler.cpp" />
     <ClCompile Include="handlers\CustomVehicleHandler.cpp" />

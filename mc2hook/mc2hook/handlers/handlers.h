@@ -17,6 +17,7 @@
 #include <handlers\InputHandler.h>
 #include <handlers\BorderlessHandler.h>
 #include <handlers\ReflectionFidelityHandler.h>
+#include <handlers/CityModelLimitHandler.h>
 #include <handlers/BurnoutHandler.h>
 #include <handlers/TimeWarpHandler.h>
 #include <handlers/MaxVelocityHandler.h>
@@ -61,6 +62,7 @@ static void InstallMainHandlers()
     InstallHandler<ChatHandler>("Chat Handler");
     InstallHandler<InitHandler>("Game Init Handler");
     InstallHandler<ReflectionFidelityHandler>("Reflection Fidelity Handller");
+    InstallHandler<CityModelLimitHandler>("City Model Limit Handler");
     InstallHandler<TimeWarpHandler>("Time Warp Handler");
     InstallHandler<LevelExtentsHandler>("Level Extents Handler");
     InstallHandler<FreeCamHandler>("Free Cam Handler");
