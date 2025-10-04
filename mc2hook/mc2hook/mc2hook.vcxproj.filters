@@ -243,6 +243,21 @@
     <ClInclude Include="handlers\ControllerScrollingFixHandler.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="handlers\CarShadowHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="handlers\CityModelLimitHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="handlers\DeadZoneHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="handlers\MaxVelocityHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="handlers\TimeWarpHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
@@ -367,10 +382,10 @@
     </ClCompile>
     <ClCompile Include="handlers\BurnoutHandler.cpp">
       <Filter>Source Files</Filter>
-    </ClInclude>
+    </ClCompile>
     <ClCompile Include="handlers\LevelExtentsHandler.cpp">
       <Filter>Source Files</Filter>
-    </ClInclude>
+    </ClCompile>
     <ClCompile Include="handlers\FreeCamHandler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -385,8 +400,23 @@
     </ClCompile>
     <ClCompile Include="handlers\FPSCounterHandler.cpp">
       <Filter>Source Files</Filter>
-    </ClInclude>
+    </ClCompile>
     <ClCompile Include="handlers\ControllerScrollingFixHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="handlers\CarShadowHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="handlers\CityModelLimitHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="handlers\DeadZoneHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="handlers\MaxVelocityHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="handlers\TimeWarpHandler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
