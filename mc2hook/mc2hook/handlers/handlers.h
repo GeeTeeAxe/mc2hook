@@ -17,6 +17,7 @@
 #include <handlers\InputHandler.h>
 #include <handlers\BorderlessHandler.h>
 #include <handlers\ReflectionFidelityHandler.h>
+#include <handlers/BurnoutHandler.h>
 #include <handlers/TimeWarpHandler.h>
 #include <handlers/MaxVelocityHandler.h>
 #include <handlers/LevelExtentsHandler.h>
@@ -43,6 +44,7 @@ static void InstallHandlersPostEngineInit()
     InstallHandler<PathHandler>("Path Handler");
     InstallHandler<TestPanelHandler>("Panel Handler (Keyboard input test really)");
     InstallHandler<vehTransmissionHandler>("Transmission Handler");
+    InstallHandler<BurnoutHandler>("Burnout Handler");
     InstallHandler<MaxVelocityHandler>("Max Velocity Handler");
 }
 
